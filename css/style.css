@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* 上部の黒バー */
+.top {
+    height: 35px;
+    background-color: black;
+}
+/* ヘッダー、メイン、アサイドを囲っています */
+.container {
+    width: 100%;
+    height: 723px;   
+    margin: 0 auto;
+    display: flex;
+}
+
+/* 右メニュー */
+header {
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+.menu-box {
+    margin-top: 60px;
+}
+.menu-li {
+    margin-bottom: 30px;
+}
+.menu {
+    font-size: 65px;
+    text-align: center;
+}
+.menu a {
+  text-decoration: none;
+    color: white;
+}
+
+/* メイン画像 */
+main {
+    width: 50%;
+    background-color: black;
+}
+.mainimg {
+    height: 483px;
+}
+/* メイン画像フィルター */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1104 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin-top: 90px;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+figure.snip1104 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+figure.snip1104 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+figure.snip1104 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+figure.snip1104 h2 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+figure.snip1104 h2 span {
+  font-weight: 800;
+}
+figure.snip1104:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+figure.snip1104 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1104.red {
+  background: #581a14;
+}
+figure.snip1104.red h2 {
+  background: #36100c;
+}
+figure.snip1104:hover img,
+figure.snip1104.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+
+/* 右メニュー */
+aside {
+    width: 25%;
+    background-color: black;
+    color: white; 
+}
+.myproduct {
+    margin-top: 70px;
+    text-align: center;
+}
+.myproduct h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.productlist {
+    font-size: 35px;
+}
+.productlist li {
+    margin-bottom: 20px;
+}
+.sns {
+    margin-top: 100px;
+    text-align: center;
+}
+.sns h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.sns-list {
+    font-size: 20px;
+}
+.sns-list li{
+    margin-bottom: 10px;
+}
+.sns-list a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.middle {
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 41%;
+}
+
+/* プロフィールページ */

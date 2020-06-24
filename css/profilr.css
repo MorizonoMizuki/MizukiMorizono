@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url("/img/profile.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position:0 0;
+    color: white;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+h1 {
+    font-size: 90px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.name {
+    height: 70px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    text-align: center;
+}
+.name h2 {
+    font-size: 60px;
+}
+.name h3 {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.team {
+    width: 500px;
+    height: 150px;
+    background:rgba(255, 255, 255, 0.3);
+    position: relative;
+    margin-left: 126px;
+    margin-top: 20px;
+}
+.teampic {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.asteeda {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.asteeda {
+    font-size: 25px;
+}
+.team-name-en {
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 77px;
+    letter-spacing: 0.05em
+}
+button {
+    margin-top: 20px;
+    margin-left: 77px;
+    height: 30px;
+    width: 100px;
+}
+
+.profile {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 26px;
+    margin-left: 60px;
+}
+
+.profile li {
+    margin-bottom: 30px;
+}
+
+.rem1 {
+    margin-left: 50px;
+}
+.rem2 {
+    margin-left: 38px;
+}
+.rem3 {
+    margin-left: 80px;
+
+}
+.rem4 {
+    margin-left: 76px;
+
+}
+.rem5 {
+    margin-left: 76px;
+
+}
+.rem6 {
+    margin-left: 100px;
+
+}
+.rem7 {
+    margin-left: 100px;
+
+}
