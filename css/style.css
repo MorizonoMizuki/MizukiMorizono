@@ -22,11 +22,33 @@ header {
     margin-top: 60px;
 }
 .menu-li {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .menu {
     font-size: 65px;
     text-align: center;
+}
+.menu a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.menu a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: white;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .5s;
+}
+.menu a:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 .menu a {
   text-decoration: none;
@@ -34,6 +56,11 @@ header {
 }
 
 /* メイン画像 */
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
 main {
     width: 50%;
     background-color: black;
