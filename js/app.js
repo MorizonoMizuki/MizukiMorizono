@@ -1,45 +1,54 @@
-$(function () {
-    $('.okinawatabletennis').textillate({
+
+// $(function () {
+//     $('.okinawatabletennis').textillate({
 
         // ループのオンオフ、falseの場合、outは発動しない
-        loop: false,
+        // loop: false,
       
         // テキストが置き換えられるまでの表示時間
-        minDisplayTime: 2000,
+        // minDisplayTime: 2000,
       
         // 遅延時間
-        initialDelay: 0,
+        // initialDelay: 0,
       
         // アニメーションが自動的にスタートするかどうか
-        autoStart: true,
+        // autoStart: true,
       
         // フェードインのエフェクトの詳細設定
-        in: {
+        // in: {
           // エフェクトの名前（animate.cssをご参照下さい）
-          effect: 'fadeInUpBig',
+        //   effect: 'fadeInUpBig',
       
           // 遅延時間の指数
-          delayScale: 1.5,
+        //   delayScale: 1.5,
       
           // 文字ごとの遅延時間
-          delay: 50,
+        //   delay: 50,
       
           // trueにすることでアニメーションをすべての文字に同時に適用される
-          sync: false,
+        //   sync: false,
       
           // trueにすることで文字を順番にではなく、ランダムに入ってくるようにする
           // (注：syncがtrueの場合は無効になる)
-          shuffle: false
-        },
+        //   shuffle: false
+        // },
       
         // フェードアウトのエフェクトの詳細設定(同上)
-        out: {
-          effect: 'fadeOutDownBig',
-          delayScale: 1.5,
-          delay: 50,
-          sync: false,
-          shuffle: false,
-        }
-      });
+//         out: {
+//           effect: 'fadeOutDownBig',
+//           delayScale: 1.5,
+//           delay: 50,
+//           sync: false,
+//           shuffle: false,
+//         }
+//       });
         
-})
+// })
+
+// プロフィールスライド部分
+
+$(function() {
+    $.scrollify({
+    section : "section",
+    });
+    });
