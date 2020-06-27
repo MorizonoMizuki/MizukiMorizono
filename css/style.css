@@ -1,4 +1,21 @@
 @charset "UTF-8";
+/* 読み込み時にフワッと表示 */
+body {
+  animation: fadeIn 3s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  height: 100vh;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
 /* 上部の黒バー */
 .top {
     height: 35px;
@@ -182,6 +199,11 @@ aside {
 }
 .productlist li {
     margin-bottom: 20px;
+}
+
+.productlist a {
+    text-decoration: none;
+    color: white;
 }
 .sns {
     margin-top: 100px;
